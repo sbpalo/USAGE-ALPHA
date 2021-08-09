@@ -1,3 +1,10 @@
 # USAGE-ALPHA
-display of installed apps
--enable/disabled
+Displays list of apps
+>>> enable/disable button
+
+Missing
+>>>Chart
+>>>Database
+>>>Data Usage(optional)
+
+note: walang signin/login
