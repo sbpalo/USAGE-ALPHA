@@ -52,7 +52,6 @@ import static com.example.timetracker.AppHelper.initAppHelper;
 
         TimeTrackerPrefHandler.INSTANCE.setMode(0, getApplicationContext());
 
-
         toolbar = findViewById(R.id.toolbar);
         tutorialView = findViewById(R.id.tutorial_screen);
         setSupportActionBar(toolbar);

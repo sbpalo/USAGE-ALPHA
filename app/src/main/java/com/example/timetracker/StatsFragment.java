@@ -189,7 +189,7 @@ public class StatsFragment extends Fragment {
             }
            saveAppPreference();
             if (values.size() != 0) {
-               // setChart(values);
+                //setChart(values);
             }
         }
     }
@@ -259,7 +259,7 @@ public class StatsFragment extends Fragment {
 
         // if more than 60 entries are displayed in the chart, no values will be
         // drawn
-//        barChart.setMaxVisibleValueCount(60);
+        barChart.setMaxVisibleValueCount(60);
         barChart.setVisibleXRangeMaximum(6);
         barChart.moveViewToX(10);
 
@@ -294,7 +294,7 @@ public class StatsFragment extends Fragment {
         l.setForm(Legend.LegendForm.SQUARE);
         l.setFormSize(9f);
         l.setTextSize(11f);
-//        l.setXEntrySpace(4f);
+        l.setXEntrySpace(4f);
 
         setData(values);
     }
